@@ -10,10 +10,6 @@ const requisicao = () => new Promise((resolve, reject) => {
     }, 3000);
 });
 
-type res = {
-    data: any;
-}
-
 function* authRequest()  {
     try {        
         
